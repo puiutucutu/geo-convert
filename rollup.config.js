@@ -19,6 +19,6 @@ module.exports = [
       format: "umd",
       name: "geo-convert"
     },
-    plugins: [json(), resolve(), ...babelPlugin, commonjs(), terser()]
+    plugins: [resolve(), json(), ...babelPlugin, commonjs(), terser()]
   }
 ];
